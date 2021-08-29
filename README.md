@@ -26,7 +26,7 @@ Faça o download do projeto em sua máquina e execute o seguinte comando na raiz
 ```
 composer install
 ```
-Depois para criar as tabelas no banco de dados, execute o seguinte comando:
+Caso ainda não tenha criado o arquivo .env, crie utilizando como base o arquivo env.example.Depois para criar as tabelas no banco de dados, execute o seguinte comando:
 ```
 php artisan migrate
 ```
